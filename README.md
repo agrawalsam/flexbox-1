@@ -5,25 +5,26 @@ Let's begin the journey:
     The order property specifies the order of a flexible item relative to the rest of the flexible items inside the same container.
     Note: If the element is not a flexible item, the order property has no effect.
   # Tree Structure
-  Parent element on which display=flex;
-  \n|----Child element
-  |----Child element 
+  Parent element on which display=flex; <br />
+  |----Child element <br/>
+  |----Child element <br/>
+  |----Child element <br/>
   |----Child element
-  |----Child element
+  
   # Usage
   In HTML file:
-  <div class="flex-container">
+  <div class="flex-container"> 
         <div class="one">
-          <!-- Components Inside-->
-        </div>
+          <p>Elements Inside</p>
+        </div> 
         <div class="two">
-          <!-- Components Inside-->
+          <p>Elements Inside</p>
         </div>
         <div class="three">
-          <!-- Components Inside-->
+          <p>Elements Inside</p> 
         </div>
         <div class="four">
-          <!-- Components Inside-->
+          <p>Elements Inside</p>
         </div>
   </div>
   
@@ -34,11 +35,11 @@ Let's begin the journey:
  }
  .one{
    order:0;
- }
- .two{
-   order:0;
- }
- .three{
+ }<br/>
+ .two{<br/>
+   order:0;<br/>
+ }<br/>
+ .three{<br/>
    order:0;
  }
  .four{
