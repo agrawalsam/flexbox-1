@@ -1,0 +1,49 @@
+*{
+    font-family: monospace;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 50px auto;
+}
+.flex-container{
+    display:flex;
+    background:#fff; 
+    justify-content:center;
+}
+.flex-container div{
+    margin:auto 20px;
+    width:200px;
+    min-height:500px;
+}
+h2{
+    margin:10px;
+}
+p{
+    padding:10px;
+}
+.one{
+    order:0;
+    color:white;
+    background:pink;
+}
+.two{
+    order:0;
+    color:cyan;
+    background:green;
+}
+.three{
+    order:0;
+    color:yellow;
+    background:orange;
+}
+.four{
+    order:0;
+    color:cyan;
+    background:red;
+}
