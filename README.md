@@ -6,7 +6,7 @@ Let's begin the journey:
     Note: If the element is not a flexible item, the order property has no effect.
   # Tree Structure
   Parent element on which display=flex;
-  |----Child element
+  \n|----Child element
   |----Child element 
   |----Child element
   |----Child element
